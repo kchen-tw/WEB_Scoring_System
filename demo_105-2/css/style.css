@@ -47,19 +47,19 @@
 
 .block img {
     width: 100%;
-    height: 55%;
+    height: auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15)
 }
 
 .top {
     position: relative;
-    height: 55%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
 }
 
 .top>img {
-    height: 94%;
+    height: auto;
     width: 94%;
 }
 
@@ -84,4 +84,36 @@
 footer {
     float: left;
     width: 100vw;
+}
+
+@media (max-width:1024px) {
+    .block {
+        width: 45%;
+    }
+    .block:nth-child(3n+2) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .block:nth-child(2n) {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:764px) {
+    .block:nth-child(3n+2) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .block {
+        width: 100%;
+    }
+    .block:nth-child(2n) {
+        margin-left: 0;
+    }
+    .top {
+        height: 80%;
+    }
+    .img-logo img {
+        width: 80%;
+    }
 }
