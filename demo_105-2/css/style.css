@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: 'Noto Sans TC', 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 26px;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /*background-color: #7ab0e6;*/
+    height: 3em;
+    z-index: 9999;
+}
+
+nav ul {
+    text-align: right;
+    padding-right: 2em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0;
+    margin-left: 3em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#section1 {
+    height: 100vh;
+    background-position: center center;
+    background: url(../img/back.jpg);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#section1 h1 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2em;
+}
+
+#section1 h2 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#section1 .start {
+    text-align: center;
+}
+
+#section1 .start button {
+    cursor: pointer;
+    font-family: 'Noto Sans TC', 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    padding: 0.4em 2em;
+    border: solid 2px;
+    border-color: #ffc107;
+    color: #ffc107;
+    background-color: transparent;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+}
+
+#section1 .start button:hover {
+    color: white;
+    background: #ffc107;
+}
+
+#section2 {
+    height: 100vh;
+}
+
+.logo {
+    padding: 0 80em;
+}
