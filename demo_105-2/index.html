@@ -8,28 +8,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="台灣大學 CS+X">
-
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="../css/creative.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <nav id="nav">
-        <ul>
-            <li><a class="logo" href="#">cs+x</a></li>
-            <li><a href=#section1>首頁</a></li>
-            <li><a href=#section2>專案列表</a></li>
-        </ul>
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> 選單 <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="../logo.png" alt=""></a>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="../index.html#about">CS+X源由</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                         授課老師 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="page-scroll" href="#team">蔡芸琤老師</a></li>
+                            <li><a class="page-scroll" href="#team">陳琨老師</a></li>
+                            <li><a class="page-scroll" href="#team">張傑帆老師</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#courses">課程資訊</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../photo.html">線下讀書會與活動</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                         期末成果展 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="page-scroll" href="#final">105(上)期末成果</a></li>
+                            <li><a class="page-scroll" href="#final">105(下)期末成果</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#contact">聯絡我們</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
 
 
 
-    <section id="section1">
+    <header id="first">
         <img src="./img/csx.png" alt="">
-        <div class="start">
-            <button>開始</button>
-        </div>
-    </section>
+        <br>
+        <a href="../index.html#about">
+            <div class="btn btn-default btn-xl page-scroll">CS+X源由</div>
+        </a>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
