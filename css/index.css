@@ -108,3 +108,12 @@ section {
 a:hover {
     text-decoration: none;
 }
+
+#homeHeading {
+    margin-bottom: 6.5rem;
+}
+
+.btn {
+    background-color: #03A9F4;
+    color: #FFF;
+}
