@@ -482,3 +482,8 @@ img::-moz-selection {
 .img-rounded {
     border-radius: 100%;
 }
+
+.btn {
+    background-color: #03A9F4;
+    color: #FFF;
+}
