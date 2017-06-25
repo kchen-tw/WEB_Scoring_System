@@ -143,3 +143,7 @@ a:hover {
 #team {
     background-color: #CCCCCC;
 }
+
+.navbar-inverse {
+    border-bottom-width: 0px;
+}
