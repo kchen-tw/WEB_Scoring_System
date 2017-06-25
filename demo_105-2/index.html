@@ -96,7 +96,8 @@
                     <div class="s-box-img" v-bind:style="'background: url('+project.photo+') 0% 0% / cover;'"></div>
                 </div>
                 <div class="des">
-                    <p>{{project.title}}</p>
+                    <p v-if="project.tolong" style="font-size: 1rem;">{{project.title}}</p>
+                    <p v-else>{{project.title}}</p>
                     <p>{{project.class}}</p>
                     <p>{{project.team}}</p>
                     <a v-bind:href="project.website" target="_blank" class="btn btn-default">網站</a>
