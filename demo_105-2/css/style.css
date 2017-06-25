@@ -86,7 +86,6 @@ footer {
     width: 100vw;
 }
 
-<<<<<<< HEAD
 @media (max-width:1024px) {
     .block {
         width: 45%;
@@ -101,6 +100,10 @@ footer {
 }
 
 @media (max-width:764px) {
+    .block:nth-child(3n+2) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .block {
         width: 100%;
     }
@@ -110,8 +113,4 @@ footer {
     .top {
         height: 80%;
     }
-=======
-.img-logo {
-    margin-bottom: 30px;
->>>>>>> 9b7eef9882847a5f39e4ceeffdd34bc4382bdcaf
 }
