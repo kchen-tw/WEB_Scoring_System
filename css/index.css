@@ -117,3 +117,29 @@ a:hover {
     background-color: #03A9F4;
     color: #FFF;
 }
+
+.poya {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-image: url(../img/poya.jpg);
+}
+
+#about p {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    color: #222;
+}
+
+#team h2,
+#about h2 {
+    margin-bottom: 5rem;
+}
+
+#about {
+    background-color: #99CCFF;
+}
+
+#team {
+    background-color: #CCCCCC;
+}
