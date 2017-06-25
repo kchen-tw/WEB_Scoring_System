@@ -18,6 +18,8 @@
 </head>
 
 <body>
+
+
     <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,34 +30,34 @@
                 <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="../logo.png" alt=""></a>
 
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="../index.html#about">CS+X能力課程</a>
+                        <a class="page-scroll" href="./index.html#about">CS+X能力課程</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                          授課老師 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="page-scroll" href="#team">蔡芸琤老師</a></li>
-                            <li><a class="page-scroll" href="#team">陳琨老師</a></li>
-                            <li><a class="page-scroll" href="#team">張傑帆老師</a></li>
-
+                            <li><a href="../index.html#team">蔡芸琤老師</a></li>
+                            <li><a ref="../index.html#team">陳琨老師</a></li>
+                            <li><a href="../index.html#team">張傑帆老師</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#courses">課程資訊</a>
+                        <a href="../course.html">課程資訊</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../photo.html">線下讀書會與活動</a>
+                        <a href="../photo.html">線下讀書會與活動</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                          期末成果展 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="page-scroll" href="#final">105(上)期末成果</a></li>
-                            <li><a class="page-scroll" href="#final">105(下)期末成果</a></li>
+                            <li><a href="../demo_105-1/index.html">105(上)期末成果</a></li>
+                            <li><a href="../demo_105-2/index.html">105(下)期末成果</a></li>
                         </ul>
                     </li>
 
@@ -72,88 +74,38 @@
 
 
     <header id="first">
-        <div class="img-logo">
-            <img src="./img/csx.png" alt="">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <img src="./img/csx.png" alt="">
+                <br>
+                <a href="#project" class="btn btn-default btn-xl page-scroll">開始</a>
+            </div>
         </div>
-        <br>
-        <a href="#project" class="btn btn-default btn-xl page-scroll">開始</a>
+
 
     </header>
+
     <section id="project">
         <div>
-            <h2>專案</h2>
+            <h2>專案列表</h2>
         </div>
         <div></div>
-        <div class="my_container">
-            <div class="s-block">
+        <div id="project_card" class="my_container">
+            <div class="s-block" v-for="project in projects">
                 <div class="s-box">
-                    <div class="s-box-img" style="background: url(./img/01.jpg) 0% 0% / cover;"></div>
+                    <div class="s-box-img" v-bind:style="'background: url('+project.photo+') 0% 0% / cover;'"></div>
                 </div>
                 <div class="des">
-                    <p>標題一</p>
-                    <p>製作中...</p>
-                    <a href="#" class="btn btn-default">網站</a>
-                    <a href="#" class="btn btn-default">投影片</a>
+                    <p>{{project.title}}</p>
+                    <p>{{project.class}}</p>
+                    <p>{{project.team}}</p>
+                    <a v-bind:href="project.website" class="btn btn-default">網站</a>
+                    <a v-bind:href="project.slide" class="btn btn-default">投影片</a>
                 </div>
             </div>
-            <div class="s-block">
-                <div class="s-box">
-                    <div class="s-box-img" style="background: url(./img/01.jpg) 0% 0% / cover;"></div>
-                </div>
-                <div class="des">
-                    <p>標題二</p>
-                    <p>製作中...</p>
-                    <a href="#" class="btn btn-default">網站</a>
-                    <a href="#" class="btn btn-default">投影片</a>
-                </div>
-            </div>
-            <div class="s-block">
-                <div class="s-box">
-                    <div class="s-box-img" style="background: url(./img/01.jpg) 0% 0% / cover;"></div>
-                </div>
-                <div class="des">
-                    <p>標題三</p>
-                    <p>製作中...</p>
-                    <a href="#" class="btn btn-default">網站</a>
-                    <a href="#" class="btn btn-default">投影片</a>
-                </div>
-            </div>
-            <div class="s-block">
-                <div class="s-box">
-                    <div class="s-box-img" style="background: url(./img/01.jpg) 0% 0% / cover;"></div>
-                </div>
-                <div class="des">
-                    <p>標題四</p>
-                    <p>製作中...</p>
-                    <a href="#" class="btn btn-default">網站</a>
-                    <a href="#" class="btn btn-default">投影片</a>
-                </div>
-            </div>
-            <div class="s-block">
-                <div class="s-box">
-                    <div class="s-box-img" style="background: url(./img/01.jpg) 0% 0% / cover;"></div>
-                </div>
-                <div class="des">
-                    <p>標題五</p>
-                    <p>製作中...</p>
-                    <a href="#" class="btn btn-default">網站</a>
-                    <a href="#" class="btn btn-default">投影片</a>
-                </div>
-            </div>
-            <div class="s-block">
-                <div class="s-box">
-                    <div class="s-box-img" style="background: url(./img/01.jpg) 0% 0% / cover;"></div>
-                </div>
-                <div class="des">
-                    <p>標題六</p>
-                    <p>製作中...</p>
-                    <a href="#" class="btn btn-default">網站</a>
-                    <a href="#" class="btn btn-default">投影片</a>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
+
     <footer class="bg-dark" id="contact">
         <div class="container">
             <div class="row row-footer">
@@ -192,7 +144,10 @@
     <script src="../vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-
+    <!-- Theme JavaScript -->
+    <script src="./js/creative.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="js/index-vue.js"></script>
 </body>
 
 </html>
