@@ -86,6 +86,7 @@ footer {
     width: 100vw;
 }
 
+<<<<<<< HEAD
 @media (max-width:1024px) {
     .block {
         width: 45%;
@@ -109,4 +110,8 @@ footer {
     .top {
         height: 80%;
     }
+=======
+.img-logo {
+    margin-bottom: 30px;
+>>>>>>> 9b7eef9882847a5f39e4ceeffdd34bc4382bdcaf
 }
