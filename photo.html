@@ -19,12 +19,6 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-
 
     <link rel="stylesheet" href="./css/index.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -40,271 +34,153 @@
 </head>
 
 <body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <div class="content">
+        <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> 選單 <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="logo.png" alt=""></a>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="logo.png" alt=""></a>
 
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="page-scroll" href="#about">CS+X源由</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                         授課老師 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="#team">蔡芸琤老師</a></li>
+                                <li><a class="page-scroll" href="#team">陳琨老師</a></li>
+                                <li><a class="page-scroll" href="#team">張傑帆老師</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#courses">課程資訊</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="./photo.html">線下讀書會與活動</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                         期末成果展 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="#final">105(上)期末成果</a></li>
+                                <li><a class="page-scroll" href="#final">105(下)期末成果</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#contact">聯絡我們</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a class="page-scroll" href="./index.html">首頁</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#readingGPPhoto">線下讀書會照片</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#activityPhoto">各類參訪、講座與活動照片</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-    <!--header id="first">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">國立臺灣大學CS+X能力課程</h1>
-                <hr>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">CS+X源由</a>
-            </div>
-        </div>
-    </header-->
-
-
-
-    <section id="readingGPPhoto">
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- 圖片輪播開始 -->
         <div class="container">
-            <div class="row row-content">
-                <div class="col-xs-12">
-                    <h2>線下讀書會</h2>
-                    <div id="mycarousel1" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#mycarousel1" data-slide-to="0" class="active"></li>
-                            <li data-target="#mycarousel1" data-slide-to="1"></li>
-                            <li data-target="#mycarousel1" data-slide-to="2"></li>
-                            <li data-target="#mycarousel1" data-slide-to="3"></li>
-                            <li data-target="#mycarousel1" data-slide-to="4"></li>
-                            <li data-target="#mycarousel1" data-slide-to="5"></li>
-                            <li data-target="#mycarousel1" data-slide-to="6"></li>
-                            <li data-target="#mycarousel1" data-slide-to="7"></li>
-                            <li data-target="#mycarousel1" data-slide-to="8"></li>
-                            <li data-target="#mycarousel1" data-slide-to="9"></li>
-                        </ol>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
 
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img class="img-responsive" src="img/琨哥線下讀書會狀況1.jpg" alt="Uthappizza">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">琨哥線下讀書會(二)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/琨哥線下讀書會狀況2.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">琨哥線下讀書會(二)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/python1.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">Python共學空間(一)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/python2.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">Python共學空間(二)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/個人名片實作1.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">CS+X 線下讀書會 - 個人名片實作(一)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/個人名片實作2.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">CS+X 線下讀書會 - 個人名片實作(二)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/考前衝剌班1.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">CS+X 線下讀書會 - 考前衝剌班(一)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/考前衝剌班2.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">CS+X 線下讀書會 - 考前衝剌班(二)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/彩曈共學空間1.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">CS+X 線下讀書會 - 彩曈共學空間(一)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/彩曈共學空間2.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:yellow">CS+X 線下讀書會 - 彩曈共學空間(二)</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#mycarousel1" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="right carousel-control" href="#mycarousel1" role="button" data-slide="next">
-                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                        <div class="btn-group" id="carouselButtons">
-                                            <button class="btn btn-danger btn-sm" id="carousel1-pause">
-               	                <span class="fa fa-pause" aria-hidden="true"></span>
-                            </button>
-                                            <button class="btn btn-danger btn-sm" id="carousel1-play">
-               	                <span class="fa fa-play" aria-hidden="true"></span>
-                            </button>
-                                        </div>
-                                </div>
-                            </div>
-                        </div>
-
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./img/01.jpg" style="width:100%;">
                     </div>
-    </section>
 
+                    <div class="item">
+                        <img src="./img/02.jpg" style="width:100%;">
+                    </div>
 
-
-
-    <section id="activityPhoto">
-        <div class="container">
-            <div class="row row-content">
-                <div class="col-xs-12">
-                    <h2>參訪、講座與活動</h2>
-                    <div id="mycarousel2" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#mycarousel2" data-slide-to="0" class="active"></li>
-                            <li data-target="#mycarousel2" data-slide-to="1"></li>
-                            <li data-target="#mycarousel2" data-slide-to="2"></li>
-                        </ol>
-
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img class="img-responsive" src="img/資料預測競賽1.jpg" alt="Let’s Go Kaggle 第四場分享會">
-                                <div class="carousel-caption">
-                                    <h2>Let’s Go Kaggle 第四場分享會 <span class="badge">(一)</span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/資料預測競賽2.jpg">
-                                <div class="carousel-caption">
-                                    <h2><span style="color:black">Let’s Go Kaggle 第四場分享會 <span class="badge">(二)</span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/資料預測競賽2.jpg">
-                                <div class="carousel-caption">
-                                    <h2> <span style="color:yellow">　Let’s Go Kaggle 第四場分享會 </span><span class="badge"></span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="img/CSX助教團隊聚餐.jpg">
-                                <div class="carousel-caption">
-                                    <h2> <span style="color:yellow">　CS+X助教團隊聚餐 </span><span class="badge"></span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#mycarousel2" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#mycarousel2" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                        <div class="btn-group" id="carouselButtons">
-                            <button class="btn btn-danger btn-sm" id="carousel-pause">
-               	                <span class="fa fa-pause" aria-hidden="true"></span>
-                            </button>
-                            <button class="btn btn-danger btn-sm" id="carousel-play">
-               	                <span class="fa fa-play" aria-hidden="true"></span>
-                            </button>
-                        </div>
+                    <div class="item">
+                        <img src="./img/03.jpg" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="./img/03.jpg" style="width:100%;">
                     </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-
         </div>
-    </section>
+        <!-- 圖片輪播結束 -->
+        <div class="welcome">
+            <h1><span>課程介紹</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="top"><img src="./img/05.jpg" alt=""></div>
+                <div class="h3">彩瞳共學空間</div>
+                <div>者個期氣生由水克地目：而萬分體？ 出得用日的個住……教多始物車農多已數陽因你筆： 基了報行種候甚眼止以到看傳！新學賣！政陸實麼叫好期怕中玩歌己檢。 視南合……可好法夫兒母親致我樂也超多解漸會究三上：於只題哥接、 亞發準實去城天應前個們法開要觀們識也科怎是加們廣。
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="top"><img src="./img/06.jpg" alt=""></div>
+                <div class="h3">線下讀書會</div>
+                <div>素成他成在，品它立廣升自所受同高不獎們分們。演道個或之裡好量裡。飛上水出，利企小……上了出的林品片，夫遠人走味心香兩嚴照外思有，本了會立？獎於對定之，話把及布果有心兩了一難或；世量連料的地件龍位嗎自場年操經中給企送心那何分：記教式去紀園也？有先明如天斯運準嗎子天。
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="top"><img src="./img/07.jpg" alt=""></div>
+                <div class="h3">資料預測競賽</div>
+                <div>生通了發親國情，找去多的新臺不我旅作來是國得走兩高至了只，畫師接多？政府水非的是漸覺中把個！身中營四成不華我。三參雄：夜就可學會我外好小麼，接於公得到河，身故？物心就雨研。 何開事又表據的積主總待北下！藥覺是上的道友八心盡回更技人息死、公熱回教上？展雖代定相它。
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row row-footer">
+                <div class="col-md-4 text-center">
+                    <p><span class="glyphicon glyphicon-envelope"></span>&nbsp; &nbsp;cge@ntu.edu.tw</p>
+                </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <div class="col-md-4 text-center ">
+                    <p><span class="glyphicon glyphicon-earphone"></span>&nbsp; &nbsp;(02) 33662545</p>
+                </div>
+
+                <div class="col-md-4 text-center ">
+                    <a href="https://www.facebook.com/ntucsx/?ref=br_rs " aria-hidden="true ">
+                        <span class="fa fa-facebook sr-contact "></span>&nbsp; &nbsp; NTU CS+X 臉書粉絲專頁
+                    </a>
+                </div>
+
+
+                <div class="col-xs-12 ">
+                    <p style="padding:10px; "></p>
+                    <p align="center ">© Copyright 2017 NTU CS+X</p>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
 
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
-
-    <script>
-        $(document).ready(function() {
-            $("#mycarousel1").carousel({
-                interval: 50
-            });
-            $("#mycarousel2").carousel({
-                interval: 50
-            });
-            $("#carousel1-pause").click(function() {
-                $("#mycarousel1").carousel('pause');
-            });
-            $("#carousel1-play").click(function() {
-                $("#mycarousel1").carousel('cycle');
-            });
-            $("#carousel-pause").click(function() {
-                $("#mycarousel2").carousel('pause');
-            });
-            $("#carousel-play").click(function() {
-                $("#mycarousel2").carousel('cycle');
-            });
-        });
-    </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js "></script>
 
 </body>
 
