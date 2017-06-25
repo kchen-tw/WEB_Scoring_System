@@ -199,6 +199,8 @@ header:before {
     opacity: .4;
     z-index: -1;
     background: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 header .header-content {
