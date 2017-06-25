@@ -29,7 +29,7 @@ $(function() {
                     "slide": "http://slides.com/brant0723/deck#/",
                     "website": "https://feeatherwind.shinyapps.io/final/",
                     "team": "田少谷、陳羽渢、蔡以樂、陳安宇",
-                    "photo": "https://drive.google.com/file/d/0B1xG2A0blOciUUpaSTZXc3gwQ1U/view"
+                    "photo": "http://i.imgur.com/90KkYYD.jpg"
                 },
                 {
                     "no": 4,
@@ -42,55 +42,55 @@ $(function() {
                 },
                 {
                     "no": 5,
-                    "class": "arduino",
+                    "class": "Arduino",
                     "title": "敵人基地偵查車",
                     "slide": "https://docs.google.com/presentation/d/1XWs2BkIRUNReo94amEhsXrJVv8Yz11c7XcXm7xfyNRU/pub?start=false&loop=false&delayms=60000&slide=id.g239c96b1b4_0_1",
                     "website": "https://www.instructables.com/id/敵人基地偵查車",
                     "team": "機械四 鄭丞予、機械四 胡 翔、機械四 楊鈞凱",
-                    "photo": "https://drive.google.com/open?id=0BzImOfbElqzYWmZxRG9oRlVsMUE"
+                    "photo": "https://i.imgur.com/TJpuGB6.png"
                 },
                 {
                     "no": 6,
-                    "class": "arduino",
+                    "class": "Arduino",
                     "title": "自製MIDI控制器",
                     "slide": "https://docs.google.com/presentation/d/1flK_svjRlYLFJDYx9H-6fKOmqnFpMxoCaWdHOkQgWHo/pub?start=false&loop=false&delayms=60000&slide=id.p4",
                     "website": "https://www.youtube.com/watch?v=62QhnNpQFmM&feature=youtu.be",
                     "team": "化學四 劉嘉元、機械三 蘇邱弘",
-                    "photo": "https://drive.google.com/open?id=0BzImOfbElqzYNkpOZjdxYzBOa0E"
+                    "photo": "https://i.imgur.com/S2BVgMS.png"
                 },
                 {
                     "no": 7,
-                    "class": "arduino",
+                    "class": "Arduino",
                     "title": "遠端遙控冷氣",
                     "slide": "https://docs.google.com/presentation/d/1r0cX6wHyIO_OETAlw-5F2-a5XQvu5cNSe9R8-iSQwYc/embed?slide=id.p",
                     "website": "https://www.youtube.com/watch?v=ODFcnRwmt8M",
                     "team": "機械三 鄭乃節、經濟碩三 郝逸清",
-                    "photo": "https://drive.google.com/open?id=0BzImOfbElqzYUy1QbDVMVVNGLVE"
+                    "photo": "https://i.imgur.com/ivHJdSE.png"
                 },
                 {
                     "no": 8,
-                    "class": "arduino",
+                    "class": "Arduino",
                     "title": "Arbike - An Interactive Bike's Lighting System",
                     "slide": "https://www.slideshare.net/secret/2eN1pxI6yKo5ah",
                     "website": "http://www.instructables.com/id/Arduino-Arbike-a-Interactive-Bike-Lighting-System/",
                     "team": "機械三 李尚倫",
-                    "photo": "https://drive.google.com/open?id=0BzImOfbElqzYNzRGT3JyU2w4UXc"
+                    "photo": "https://i.imgur.com/sdepcFK.png"
                 },
                 {
                     "no": 9,
                     "class": "Unity",
                     "title": "黑暗政治學",
                     "slide": "",
-                    "website": "無",
-                    "team": "郭育姍",
-                    "photo": "吳家和 + 兩位朋友"
+                    "website": "",
+                    "team": "郭育姍, 吳家和 + 兩位朋友",
+                    "photo": ""
                 },
                 {
                     "no": 10,
                     "class": "Unity",
                     "title": "A Car Racing Game in Unity",
                     "slide": "https://docs.google.com/presentation/d/1AFwCFIQSoggDS6_WBMjqCQc9ivUna_hdlimoy6ViBaw/embed",
-                    "website": "無",
+                    "website": "",
                     "team": "鄭雅文",
                     "photo": ""
                 },
@@ -99,7 +99,7 @@ $(function() {
                     "class": "Unity",
                     "title": "Where are you? (Unity Game)",
                     "slide": "https://docs.google.com/presentation/d/1sWOQYs8OaQf72hTUuSFUnCpBsp_ifOHUzkwUUfH6C6Y/embed",
-                    "website": "無",
+                    "website": "",
                     "team": "陳泂杋",
                     "photo": ""
                 },
@@ -110,7 +110,7 @@ $(function() {
                     "slide": "https://www.icloud.com/keynote/0XwazdJfvPtRM4cSOP8pcj3Kg#grn-network",
                     "website": "",
                     "team": "林冠言、周昱達、葛竑志",
-                    "photo": ""
+                    "photo": "http://i.imgur.com/JLfOIVh.png"
                 },
                 {
                     "no": 13,
@@ -119,7 +119,7 @@ $(function() {
                     "slide": "http://www.evernote.com/l/Aahq0jAFyoRLcJ2LHOn6hDPVJa9JRyspZeU/",
                     "website": "http://www.evernote.com/l/AagWmdDtfUBPELhWbqfkUX4vjnSDkes1ENk/",
                     "team": "乃宥然",
-                    "photo": ""
+                    "photo": "http://i.imgur.com/OzDj0dG.jpg"
                 },
                 {
                     "no": 14,
@@ -134,28 +134,28 @@ $(function() {
                     "no": 15,
                     "class": "資料庫",
                     "title": "NB-IOT自動化定位監測系統",
-                    "slide": "",
-                    "website": "",
+                    "slide": "https://github.com/frank555076/CSXFinalPpt/blob/master/lora%20mongodb%20final%20presentation.pptx",
+                    "website": "https://frank555076.herokuapp.com/",
                     "team": "林柏呈",
-                    "photo": ""
+                    "photo": "http://i.imgur.com/xPxjBGf.png"
                 },
                 {
                     "no": 16,
                     "class": "資料庫",
                     "title": "CoServing",
-                    "slide": "",
-                    "website": "",
+                    "slide": "https://docs.google.com/presentation/d/1LgarMOUbO26QWVqAXy0r3lZM04D3k0KmyU_Q0g7gnqM/edit?usp=sharing",
+                    "website": "http://coserving.azurewebsites.net",
                     "team": "蔡承諺、邱詩涵、黃繼瑜",
-                    "photo": ""
+                    "photo": "http://i.imgur.com/iWFskCz.jpg"
                 },
                 {
                     "no": 17,
-                    "class": "ios",
+                    "class": "iOS App",
                     "title": "deepArt",
                     "slide": "https://docs.google.com/presentation/d/1W6TfywXZIpIOyBElCAmNs1aaNlzBpazYoBuhnegMmjA/edit#slide=id.g2395087088_0_6",
                     "website": "https://taiwan-art.kchen.club/",
                     "team": "葉宇心",
-                    "photo": ""
+                    "photo": "http://i.imgur.com/2wxKTsI.png"
                 }
             ]
         },
